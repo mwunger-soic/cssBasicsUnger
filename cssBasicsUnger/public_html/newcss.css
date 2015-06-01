@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2015, 6:13:24 PM
+    Author     : Kaleb-LapTop
+*/
+.textbook p
+{
+    background: brown;
+}
+.textbook p.author
+{
+    background: yellow;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #8AC007;
+    padding: 2px; 
+    width: 100px;
+    height: 20px; 
+}
+h1 
+{
+     text-shadow: 2px 2px;
+ }
+#borderimg {
+     border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30 round;
+} 
+#grad {
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, blue); /* Standard syntax */
+} 
